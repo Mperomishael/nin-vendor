@@ -6,7 +6,7 @@ function App() {
 
   const handleCheckboxChange = () => {
     setIsChecked(true);
-    window.location.href = 'https://fb.com/empiredigits';
+    window.location.href = 'https://kzmg7m3brt6m5baqypoa.lite.vusercontent.net';
   };
 
   return (
@@ -15,7 +15,7 @@ function App() {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: 'url(https://i.ibb.co/zb6gbhC/n-jmk-k.jpg)',
+          backgroundImage: 'url(https://i.ibb.co/X3z76H7/jfjg.jpg)',
           opacity: '0.2'
         }}
       />
