@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px theme('colors.blue.500'),
+                 0 0 10px theme('colors.blue.500'),
+                 0 0 15px theme('colors.blue.500');
+    }
+    to {
+      box-shadow: 0 0 10px theme('colors.blue.400'),
+                 0 0 20px theme('colors.blue.400'),
+                 0 0 30px theme('colors.blue.400');
+    }
+  }
+}
